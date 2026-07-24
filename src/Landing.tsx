@@ -14,9 +14,9 @@ import {
   Wind,
 } from "lucide-react";
 
-const PHONE_NUMBER = "+998 99 055 06 60";
-const PHONE_LINK = "tel:+998990550660";
-const TELEGRAM_USERNAME = "moskitki_uz";
+const PHONE_NUMBER = "+998 94 695 05 07";
+const PHONE_LINK = "tel:+998946950507";
+const TELEGRAM_USERNAME = "jalyuzi0507";
 const TELEGRAM_LINK = `https://t.me/${TELEGRAM_USERNAME}`;
 
 function formatPhone(input: string) {
@@ -292,7 +292,7 @@ export default function Landing() {
         </div>
       </section>
 
-      <footer className="text-center text-gray-600 text-sm py-6 border-t border-white/5">Moskitki.uz © 2019 – {new Date().getFullYear()} — {t("footer_city")}</footer>
+      <footer className="text-center text-gray-600 text-sm py-6 border-t border-white/5">JalyuziTashkent.uz © 2017 – {new Date().getFullYear()} — {t("footer_city")}</footer>
     </div>
   );
 }
